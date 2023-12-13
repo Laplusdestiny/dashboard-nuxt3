@@ -22,6 +22,9 @@ export default defineNuxtConfig(
       define: {
         'process.env.DEBUG': false
       }
+    },
+    app: {
+      // pageTransition:{name:'page',mode:'out-in'}
     }
   }
 )
