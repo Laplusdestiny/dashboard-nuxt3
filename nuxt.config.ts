@@ -1,5 +1,6 @@
 import { defineNuxtConfig } from 'nuxt/config'
 import vuetify from 'vite-plugin-vuetify'
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 
 export default defineNuxtConfig(
   {
